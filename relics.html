@@ -56,6 +56,206 @@
 									<br />
 									<a href="relics_catalog_public.html">RELICS Public High-z Catalog</a>
 							</p>
+							<p>
+								<table style="width:100%">
+								<tr>
+									<th>Column</th>
+									<th>Description/Units</th>
+								</tr>
+								<tr>
+									<td>id</td>
+									<td>Cluster name + ID from SExtractor catalog (given in Salmon et al., 2020)</td>
+								</tr>
+								<tr>
+									<td>ra</td>
+									<td>Right Ascension, degrees</td>
+								</tr>
+								<tr>
+									<td>dec</td>
+									<td>Declination, degrees</td>
+								</tr>
+								<tr>
+									<td>f_XXXw</td>
+									<td>Fluxes for band at XXX central wavelength (Hubble and Spitzer), in nJy</td>
+								</tr>
+								<tr>
+									<td>e_XXXw</td>
+									<td>Flux uncertainties for band at XXX central wavelength (Hubble and Spitzer), in nJy</td>
+								</tr>
+								<tr>
+									<td>cv1</td>
+									<td>Maximum covariance index for Spitzer/IRAC channel 1: the ratio of the covariance of the object with its
+										closest/brightest neighbor and its own variance (>1 is bad)
+									</td>
+								</tr>
+								<tr>
+									<td>cv2</td>
+									<td>Maximum covariance index for Spitzer/IRAC channel 2: the ratio of the covariance of the object with its
+										closest/brightest neighbor and its own variance (>1 is bad)
+									</td>
+								</tr>
+								<tr>
+									<td>mu_medianX</td>
+									<td>Median magnification for type X lens model
+									</td>
+								</tr>
+								<tr>
+									<td>mag_model_typeX</td>
+									<td>Type of lens model associated with mu_medianX. For Glafic, see Oguri et al., 2010. For Lenstool, see Jullo et al., 2009
+										For LTM, see Zitrin et al., 2013. All models are available on MAST. 
+									</td>
+								</tr>
+								<tr>
+									<td>mu_mean(medians)</td>
+									<td>For galaxies with more than one type of model available, the mean of median magnifications.
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_log_age_best</td>
+									<td>Log best-fit formation age (in log10(Years)) using Method A described in Strait et al., 2020 (BC03+emission lines, 
+										constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_log_mass_best</td>
+									<td>Log best-fit stellar mass (in log10(Msun)) using Method A described in Strait et al., 2020 (BC03+emission lines,
+										constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_zpeak</td>
+									<td>Best-fit redshift using Method A described in Strait et al., 2020 (EAZY default templates, no model assumptions)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_sfr_best</td>
+									<td>Best-fit star formation rate (in Msun/yr) using Method A described in Strait et al., 2020 (BC03+emission lines,
+										constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_ebmv_best</td>
+									<td>Best-fit E(B-V) (in magnitudes) using Method A described in Strait et al., 2020 (BC03+emission lines,
+										constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>absmag</td>
+									<td>Absolute magnitude, calculated using Method A redshifts
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_zmed, methodA_zu68, methodA_zl68</td>
+									<td>Median, upper, and lower 68% confidence limits on redshift from posterior using Method A described in Strait et al., 2020 (EAZY default templates, no model assumptions)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_smass_med, methodA_smass_u68, methodA_smass_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on stellar mass (in Msun) from posterior using Method A described in Strait et
+										al., 2020 (BC03+emission lines, constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_sfr_med, methodA_sfr_u68, methodA_sfr_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on star formation rate (in Msun/yr) from posterior using Method A described
+										in Strait et
+										al., 2020 (BC03+emission lines, constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_ebmv_med, methodA_ebmv_u68, methodA_ebmv_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on E(B-V) (in magnitudes) from posterior using Method A
+										described
+										in Strait et
+										al., 2020 (BC03+emission lines, constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodA_age_form_med, methodA_age_form_u68, methodA_age_form_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on formation age (in Gyr) from posterior using Method A
+										described
+										in Strait et
+										al., 2020 (BC03+emission lines, constant SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_zmed, methodB_zu68, methodB_zl68</td>
+									<td>Median, upper, and lower 68% confidence limits on redshift from posterior using Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_smass_med, methodB_smass_u68, methodB_smass_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on stellar mass (in Msun) from posterior using Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_sfr_med, methodB_sfr_u68, methodB_sfr_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on star formation rate (in Msun/yr) from posterior using Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_age_form_med, methodB_age_form_u68, methodB_age_form_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on formation age (in Gyr) from posterior using Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_age_MW_med, methodB_age_MW_u68, methodB_age_MW_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on mass-weighted age (in Gyr, see eqn. 3) from posterior using Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_metallicity_med, methodB_metallicity_u68, methodB_metallicity_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on metallicity (in Zsun) from posterior using
+										Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_dust_med, methodB_dust_u68, methodB_dust_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on extinction, A_V (in magnitudes) from posterior using
+										Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_ionization_med, methodB_ionization_u68, methodB_ionization_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on ionization parameter log(U) from posterior using
+										Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								<tr>
+									<td>methodB_EW_OIII+Hb_med, methodB_EW_OIII+Hb_u68, methodB_EW_OIII+Hb_l68</td>
+									<td>Median, upper, and lower 68% confidence limits on rest-frame equivalent width of OIII+Hb (in Angstroms) from posterior using
+										Method B
+										described
+										in Strait et
+										al., 2020 (BPASS, variable exponential SFH)
+									</td>
+								</tr>
+								</table>
+							</p>
 								<hr />
 							
 							</div>
