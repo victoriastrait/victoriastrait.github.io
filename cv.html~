@@ -40,7 +40,7 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>CV And Highlights</h2>
+							<h2>CV And Highlights!</h2>
 							<p>For a PDF version of my CV, please click <a href="https://drive.google.com/file/d/1aKjvGgFe6auw2WtM7znxcgV4ruUVsdIC/view">here</a>. </p>
 						</header>
 						<section class="wrapper style5">
@@ -53,11 +53,9 @@
 
 								<h3>Publications</h3>
 								<p> 
-
-								<br> 17. <b><a href="https://ui.adsabs.harvard.edu/abs/2020arXiv201108857P/abstract">RELICS-DP7: Spectroscopic Confirmation of a Dichromatic Primeval Galaxy at z~7</a></b>
-								<br><span style="margin-left:4em">Debora Pelliccia, Victoria Strait, Brian Lemaux, Maruša Bradač, et al., 2020, arXiv:2011.08857</span>
-								<br>16. <b><a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200900020S/abstract">RELICS: A Candidate z~6.8 Strong [OIII] emitter and Other Properties of z>5.5 Galaxies Inferred from Spitzer and Hubble Imaging</a></b>
-										<br><span style="margin-left:4em">Victoria Strait, Maruša Bradač, Dan Coe, et al., arXiv:2009.00020</span>
+								<br>16. <b><a href="">RELICS: A Candidate z~6.8 Strong [OIII] emitter and Other Properties of z>5.5
+								Galaxies Inferred from <i>Spitzer</i> and <i>Hubble</i> Imaging</a></b>
+										<br><span style="margin-left:4em">Victoria Strait, Maruša Bradač, Dan Coe, et al., in preparation</span>
 									<br>15. <b><a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...888..124S/abstract">Stellar Properties of z~8 galaxies in the Reionization Lensing Cluster Survey</a></b>
 										<br><span style="margin-left:4em">Victoria Strait, Maruša Bradač, Dan Coe, Larry Bradley, et
 										al., ApJL 2019, 888, 124</span>
@@ -109,8 +107,6 @@
 								<h3>Talks</h3>
 								<p>
 								<b>What can we learn about distant galaxies before JWST?</b>
-								<br>December 2020, <i>Univeristy of Texas, Austin (Invited)</i>
-								<br>November 2020, <i>Center for Astrophysics, Harvard/Smithsonian (Invited)</i>
 								<br>July 2020, <i>SAZERAC (<a href="https://youtube.com/watch?v=JJeOgUiWdY4">Recorded and online</a>)</i>
 								<br>March 2020, <i>University of Washington– cancelled due to COVID-19</i>
 								<br>October 2019, <i>Astrophysics and Cosmology Symposium, UC Davis</i>
